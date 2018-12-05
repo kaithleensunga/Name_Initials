@@ -163,19 +163,19 @@ void draw() {
 fill(0);
 
 noStroke();
-rect(mouseX, mouseY, 65, 500); 
+rect(100, 110, 65, 500); 
 
 //top circle
 noStroke();
-ellipse(mouseX+33, mouseY, 65, 65);
+ellipse(133, 110, 65, 65);
 
 // bottom circle 
 noStroke();
-ellipse(mouseX+33, mouseY+500, 65, 65);
+ellipse(133, 610, 65, 65);
 
 //right quad
 noStroke();
-quad(mouseX+210, mouseY+100, mouseX+360, mouseY+135, mouseX+150, mouseY+410, mouseX+120, mouseY+355);
+quad(310, 100, 360, 135, 150, 410, 120, 355);
 
 //circle for right
 noStroke();
